@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="text-center">
+        <h1 class="he">To-Do List</h1>
+    </div>
+    <section class="container container1">
+        <div class="text-center try">
+            <input type="text" class="control" id="todotext" placeholder="Text....">
+            <br><button id="add" class="bttn btn-primary">Add</button>
+        </div>
+        <div class="row ">
+            <div class='col-lg-6 try'>
+                <h2 class="head">Uncomplete List</h2>
+                <div class="task-todo">
+                    <ol id="todolist">
+
+                    </ol>
+                </div>
+            </div>
+            <div class='col-lg-6 try'>
+                <h2 class="head">Compelete List</h2>
+                <div class="completed-task">
+                    <ol id="myDiv">
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
